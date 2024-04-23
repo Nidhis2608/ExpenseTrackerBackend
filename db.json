@@ -1,0 +1,50 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "fullName": "John Doe",
+        "email": "john@example.com",
+        "password": "hashed_password_here"
+      },
+      {
+        "id": 2,
+        "fullName": "Jane Smith",
+        "email": "jane@example.com",
+        "password": "hashed_password_here"
+      }
+    ],
+    "transactions": [
+      {
+        "id": 1,
+        "userId": 1,
+        "type": "Income",
+        "category": "Salary",
+        "amount": 50000,
+        "date": "2024-01-05"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "type": "Expense",
+        "category": "Food & Drinks",
+        "amount": 1500,
+        "date": "2024-01-06"
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "type": "Income",
+        "category": "Gifts",
+        "amount": 2000,
+        "date": "2024-01-10"
+      },
+      {
+        "id": 4,
+        "userId": 2,
+        "type": "Expense",
+        "category": "Shopping",
+        "amount": 7500,
+        "date": "2024-01-11"
+      }
+    ]
+  }
